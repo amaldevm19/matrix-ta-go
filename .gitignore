@@ -1,0 +1,54 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Output of the build process
+/bin/
+/build/
+
+# Vendor directory
+/vendor/
+
+# Logs
+*.log
+
+# Dependency directories
+/pkg/
+/.gopath/
+
+# Dependency management tools
+Gopkg.lock
+Gopkg.toml
+
+# Go workspace file
+go.work
+go.work.sum
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env_dev
+
+# Node modules (if using front-end with Node.js)
+node_modules/
+
+# Cover profiles
+*.out
+
+# Test binaries
+*.test
+
+# Fiber specific
+fiber.log
